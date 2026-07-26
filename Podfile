@@ -9,5 +9,5 @@ target 'VideoCall' do
   # 社区 stasel/WebRTC 仓库托管稳定的二进制，可作为备选。
   # 这里使用 GoogleWebRTC 旧版（仍可用）或 stasel 镜像。
   # 推荐：使用 stasel 维护的版本以获得最新 API
-  pod 'GoogleWebRTC', '1.1.31999'
+  pod 'WebRTC'
 end
