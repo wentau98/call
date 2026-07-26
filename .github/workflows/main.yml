@@ -10,7 +10,6 @@ jobs:
       
       - name: Install CocoaPods
         run: |
-          cd ios
           pod install
       
       - name: Build
@@ -24,7 +23,6 @@ jobs:
       
       - name: Export .ipa
         run: |
-          cd ios
           xcodebuild -exportArchive \
             -archivePath ./build/VideoCall.xcarchive \
             -exportPath ./build/ \
